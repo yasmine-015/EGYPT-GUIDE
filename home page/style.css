@@ -24,7 +24,7 @@ body {
     text-align: center;
 }
 .hero-section h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem; /* Smaller heading */
     animation: fadeIn 2s ease-in-out;
 }
 @keyframes fadeIn {
@@ -39,11 +39,11 @@ body {
 .card:hover {
     transform: scale(1.05);
 }
-.outline-warning {
-    background-color: #FFA725;
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.2rem;
+.btn-outline-warning {
+    border-color: #FFA725;
+    color: #FFA725;
+    padding: 10px 20px;
+    font-size: 1rem;
     animation: bounce 1.5s infinite;
 }
 @keyframes bounce {
@@ -68,4 +68,13 @@ footer {
     cursor: pointer;
     padding: 15px;
     font-size: 18px;
+}
+.carousel-item img {
+    height: 400px; /* Adjust height as needed */
+    object-fit: cover;
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 10px;
+    padding: 10px;
 }
